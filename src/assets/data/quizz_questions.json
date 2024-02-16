@@ -1,55 +1,61 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
-  "questions":[
+  "title": "Descubra a sua casa de Hogwarts!",
+  "questions": [
     {
-      "id":1,
-      "question": "Qual super poder você escolheria ?",
-      "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+      "id": 1,
+      "question": "Qual desses feitiços você preferiria dominar?",
+      "options": [
+        {"id": 1, "name": "Expelliarmus", "alias": "G"},
+        {"id": 2, "name": "Avada Kedavra", "alias": "S"},
+        {"id": 3, "name": "Lumos", "alias": "R"},
+        {"id": 4, "name": "Crucio", "alias": "S"}
       ]
     },
     {
-      "id":2,
-      "question": "Quem você salvaria primeiro ?",
-      "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+      "id": 2,
+      "question": "Qual animal mágico você gostaria de ter como companheiro?",
+      "options": [
+        {"id": 1, "name": "Coruja", "alias": "R"},
+        {"id": 2, "name": "Texugo", "alias": "H"},
+        {"id": 3, "name": "Cervo", "alias": "G"},
+        {"id": 4, "name": "Aranha", "alias": "S"}
       ]
     },
     {
-      "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
-      "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+      "id": 3,
+      "question": "Qual dessas qualidades você mais valoriza?",
+      "options": [
+        {"id": 1, "name": "Ambição", "alias": "S"},
+        {"id": 2, "name": "Coragem", "alias": "G"},
+        {"id": 3, "name": "Inteligência", "alias": "R"},
+        {"id": 4, "name": "Paciência", "alias": "H"}
       ]
     },
     {
-      "id":4,
-      "question": "Qual o seu maior foco ?",
-      "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+      "id": 4,
+      "question": "O que você faria se encontrasse uma criatura mágica rara?",
+      "options": [
+        {"id": 1, "name": "Ajudaria a protegê-la", "alias": "G"},
+        {"id": 2, "name": "Usaria para benefício próprio", "alias": "S"},
+        {"id": 3, "name": "Estudaria seu comportamento", "alias": "R"},
+        {"id": 4, "name": "Aproximaria cautelosamente", "alias": "H"}
       ]
     },
     {
-      "id":5,
-      "question": "Qual o seu apelido de super ser ?",
-      "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+      "id": 5,
+      "question": "Qual dessas características melhor descreve você?",
+      "options": [
+        {"id": 1, "name": "Determinado", "alias": "S"},
+        {"id": 2, "name": "Leal", "alias": "R"},
+        {"id": 3, "name": "Corajoso", "alias": "G"},
+        {"id": 4, "name": "Perspicaz", "alias": "H"}
       ]
     }
   ],
-  "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+  "results": {
+    "S": "Você pertence à casa das Serpentes! Slytherin lhe daria as boas-vindas.",
+    "G": "Você pertence à casa dos Leões! Gryffindor é o seu lugar.",
+    "R": "Você pertence à casa das Águias! Ravenclaw seria a sua casa ideal.",
+    "H": "Você pertence à casa dos Texugos! Hufflepuff lhe acolheria calorosamente."
   }
 }

@@ -15,10 +15,10 @@ export class QuizzComponent implements OnInit {
   questionSelected:any
 
   answers:string[] = []
-  answerSelected:string =""
+  answerSelected:string = ""
 
-  questionIndex:number =0
-  questionMaxIndex:number=0
+  questionIndex:number = 0
+  questionMaxIndex:number = 0
 
   finished:boolean = false
 
@@ -35,8 +35,6 @@ export class QuizzComponent implements OnInit {
       this.questionIndex = 0
       this.questionMaxIndex = this.questions.length
 
-      console.log(this.questionIndex)
-      console.log(this.questionMaxIndex)
     }
 
   }
@@ -61,6 +59,7 @@ export class QuizzComponent implements OnInit {
 
   async checkResult(anwsers:string[]){
 
+    console.log(this.answers)
     const result = anwsers.reduce((previous, current, i, arr)=>{
         if(
           arr.filter(item => item === previous).length >
@@ -73,6 +72,19 @@ export class QuizzComponent implements OnInit {
     })
 
     return result
+  }
+
+  reset(){
+    this.answers = []
+    this.answerSelected = ""
+    this.finished = false
+    this.questions = quizz_questions.questions
+
+    this.questionIndex = 0
+    this.questionMaxIndex = this.questions.length
+
+    this.questionSelected = this.questions[this.questionIndex]
+      
   }
 
 }
