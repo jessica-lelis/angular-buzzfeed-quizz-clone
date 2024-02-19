@@ -53,13 +53,15 @@ export class QuizzComponent implements OnInit {
     }else{
       const finalAnswer:string = await this.checkResult(this.answers)
       this.finished = true
-      this.answerSelected = quizz_questions.results[finalAnswer as keyof typeof quizz_questions.results ]
+      this.answerSelected = quizz_questions.results[finalAnswer as keyof typeof quizz_questions.results ] 
+      // o keyof é utilizado aqui para obter o tipo de todas as chaves presentes no objeto quizz_questions.results. 
+      // Depois é utilizado a técnica de type assertion (as) para converter finalAnswer no tipo das chaves do objeto de resultados do quiz. 
+      // Isso é necessário para garantir que finalAnswer seja tratado como uma chave válida para acessar o objeto quizz_questions.results.
     }
   }
 
   async checkResult(anwsers:string[]){
 
-    console.log(this.answers)
     const result = anwsers.reduce((previous, current, i, arr)=>{
         if(
           arr.filter(item => item === previous).length >

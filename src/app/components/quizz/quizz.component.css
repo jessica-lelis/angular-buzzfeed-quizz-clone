@@ -13,7 +13,9 @@
 }
 
 .quizz_logo > h3{
-  margin-top: 20px;
+  margin: 20px;
+  font-size: 2rem;
+  color: #ddc43b;
 }
 
 .quizz_questions{
