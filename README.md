@@ -1,6 +1,11 @@
 # ProjetoBuzzfeed
 
+This is a Harry Potter-themed study project, inspired by BuzzFeed's style!
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+
+
+![buzzFeed](https://github.com/jessica-lelis/angular-buzzfeed-quizz-clone/assets/84019018/84ea1216-88b2-4ba1-80bb-99a4b73cd8fa)
 
 ## Development server
 
